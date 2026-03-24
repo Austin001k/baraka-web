@@ -1,0 +1,377 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Baraka Diesel</title>
+
+  <link rel="stylesheet" href="sytle.css">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header class="site-header">
+  <h1>Baraka Diesel</h1>
+</header>
+
+<nav class="navbar">
+  
+  <ul>
+    <li><a href="#home">|Home|</a></li><br>
+    <li><a href="#products">|Products|</a></li>
+    <li><a href="#contact">|Contact|</a></li><br>
+  </ul>
+
+   <ul>
+    
+    <li><a href="#About">|About Us|</a></li>
+   
+  </ul>
+
+
+  <form class="search bar" onsubmit="return false;">
+    <input type="text" id="productsearch" onkeyup="searchproducts()"  placeholder="Search for products..."
+    onkeyup="searchproducts()">
+    <button type="submit">submit
+
+    </button>
+  </form>
+</nav>
+
+<main>
+  <section id="home" class="hero">
+    <h2><u>Powering Your Electrical Needs</u>..</h2>
+    <h2>.......................................</h2>
+    <p>Reliable Diesel & Electrical Solutions just for you..</p>
+  </section>
+
+  <section id="products" class="products">
+    <h2>Generators:</h2>
+
+
+ <article class="card">
+        <img src="image/stand by generator.jpg" alt="Stand by genset">
+      <h3>Stand by genset</h3>
+      <p class="price">KES 700,000</p>
+      <button onclick="buy('Stand by genset')">Buy</button>
+    </article>
+
+
+    <article class="card">
+        <img src="image/generator 1.jpg" alt="Generator for house hold">
+      <h3>Petrol Generator 5kVA</h3>
+      <p class="price">KES 75,000</p>
+      <button onclick="buy('Generator 5kVA')">Buy</button>
+    </article>
+
+    <article class="card">
+        <img src="image/genarator2.jpg" alt="Diesel Generator for hire.">
+      <h3>Petrol Generator for hire</h3>
+      <p class="price">KES 70,000</p>
+      <button onclick="buy('Diesel Generator for hire')">Buy</button>
+    </article>
+
+
+     <article class="card">
+        <img src="image/generator 4.jpg" alt="Stand by genset">
+      <h3>Stand by genset</h3>
+      <p class="price">KES 500,000</p>
+      <button onclick="buy('Stand by genset')">Buy</button>
+    </article>
+
+    <article class="card">
+        <img src="image/generator 5.jpg" alt="11kva Diesel Generator.">
+      <h3>11kva Diesel Generator</h3>
+      <p class="price">KES 650,000</p>
+      <button onclick="buy('11kva Diesel Generator')">Buy</button>
+    </article>
+</section>
+
+ <section id="products" class="products">
+    <h2>Spair Parts:</h2>
+    
+<article class="card">
+         <img src="image/airfilter.jpg" alt="air filter">
+      <h3> Air filter Parts</h3>
+      <p class="price">KES 5,000</p>
+      <button onclick="buy('Air filterr')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/spare part.jpg" alt="Parts">
+      <h3> Perkins  Availble Parts</h3>
+      <p class="price">KES @ 2,500</p>
+      <button onclick="buy('Perkins spair part')">Buy</button>
+    </article>
+
+
+    <article class="card">
+          <img src="image/fuelfilter.avif" alt="Fuel Filter">
+      <h3>Fuel Filter Parts 300W</h3>
+      <p class="price">KES 18,000</p>
+      <button onclick="buy('Fuel Filter')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/batteryn70.jpg" alt="Batteryn70">
+      <h3>Battery N70 Parts</h3>
+      <p class="price">KES 12,500</p>
+      <button onclick="Buy('Battery N70')">Buy</button>
+    </article>
+
+
+ <article class="card">
+         <img src="image/spare part 2.jpg" alt=" Spair Parts">
+      <h3>  Spair part Available</h3>
+      <p class="price">KES @ 2,500</p>
+      <button onclick="buy('Perkins spair part')">Buy</button>
+    </article>
+
+    
+   
+  
+    
+ </section>
+
+  <section id="products" class="products">
+    <h2>Conduts:</h2>
+  <article class="card">
+         <img src="image/conduts 20mm.jpg" alt="pipe">
+      <h3>Conduts 20mm</h3>
+      <p class="price">KES 90</p>
+      <button onclick="buy('pipe')">Buy</button>
+    </article>
+
+ <article class="card">
+         <img src="image/couplers.jpg" alt="couplers">
+      <h3> All size couplers</h3>
+      <p class="price">KES @25</p>
+      <button onclick="buy('coupler')">Buy</button>
+    </article>
+
+ <article class="card">
+         <img src="image/flex condut 3.jpg" alt="pipe">
+      <h3>Flex conduts  </h3>
+      <p class="price">KES @ 30 per metre</p>
+      <button onclick="buy('pipe')">Buy</button>
+    </article>
+
+
+      <article class="card">
+         <img src="image/condut25mm.jpg" alt="pipe">
+      <h3>Conduts 25mm</h3>
+      <p class="price">KES 120</p>
+      <button onclick="buy('pipe')">Buy</button>
+    </article>
+
+
+
+      <article class="card">
+         <img src="image/condut32mm.jpg" alt="pipe">
+      <h3>Conduts 32mm</h3>
+      <p class="price">KES 150</p>
+      <button onclick="buy('pipe')">Buy</button>
+    </article>
+</section>
+
+ <section id="products" class="products">
+    <h2>Lights:</h2>
+ <article class="card">
+         <img src="image/chandalia1.jpg" alt="lights">
+      <h3>Home/office Chandalia lights</h3>
+      <p class="price">KES 9,000</p>
+      <button onclick="buy('Lights')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/chandalia 4 glass.jpg" alt="Chandalia 4 glass lights">
+      <h3> Chandalia 4 glass lights</h3>
+      <p class="price">KES 8,000</p>
+      <button onclick="buy('lights')">Buy</button>
+    </article>
+
+        <article class="card">
+         <img src="image/down1.jpg" alt="Down lighers">
+      <h3> Down ligher-lights</h3>
+      <p class="price">KES 650</p>
+      <button onclick="buy('Down ligher')">Buy</button>
+    </article>
+
+    
+      <article class="card">
+         <img src="image/down3.jpg" alt="Down lighers">
+      <h3>Down ligher-lights</h3>
+      <p class="price">KES 750</p>
+      <button onclick="buy('Down ligher')">Buy</button>
+    </article>
+
+
+      <article class="card">
+         <img src="image/down2.jpg" alt="Down lighers">
+      <h3>Down ligher-lights</h3>
+      <p class="price">KES 750</p>
+      <button onclick="buy('Down lighers')">Buy</button>
+    </article>
+ </section>
+
+  <section id="products" class="products">
+    <h2>Cables:</h2>
+
+    <article class="card">
+         <img src="image/1.5 black single cable.jpg" alt="cable single">
+      <h3> cable single 1.5mm</h3>
+      <p class="price">KES 6,000</p>
+      <button onclick="buy('cable single')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/flex wire.jpg" alt="flex wire">
+      <h3> flex wire cable</h3>
+      <p class="price">KES 4,000</p>
+      <button onclick="buy('flex wire')">Buy</button>
+    </article>
+
+
+<article class="card">
+         <img src="image/2.5 single rgb.jpg" alt="cable single">
+      <h3> cable single 2.5mm</h3>
+      <p class="price">KES @ 9,000</p>
+      <button onclick="buy('cable single 2.5mm')">Buy</button>
+    </article>
+
+
+<article class="card">
+         <img src="image/4mm twe calbe.jpg" alt="Twinn cable">
+      <h3> Twinn cables 4mm</h3>
+      <p class="price">KES  13,000</p>
+      <button onclick="buy('Twinn cables 4mm')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/6mm twe cable.jpg" alt="Twinn cable">
+      <h3> Twinn cables 6mm</h3>
+      <p class="price">KES  15,000</p>
+      <button onclick="buy('Twinn cables 6mm')">Buy</button>
+    </article>
+
+
+ </section>
+ <section id="products" class="products">
+    <h2>Tools:</h2>
+  
+  <article class="card">
+         <img src="image/tapes.jpg" alt="Tapes tools">
+      <h3> Tapes RGB tools</h3>
+      <p class="price">KES @100</p>
+      <button onclick="buy('Tapes tools')">Buy</button>
+    </article> 
+
+<article class="card">
+         <img src="image/tester big.png" alt="Tester big tools">
+      <h3> Tester big tools</h3>
+      <p class="price">KES 100</p>
+      <button onclick="buy('Tester big tools')">Buy</button>
+    </article>
+
+<article class="card">
+         <img src="image/tester small.jpg" alt="Tester small tools">
+      <h3> Tester small tools</h3>
+      <p class="price">KES 50</p>
+      <button onclick="buy('Tester small tools')">Buy</button>
+    </article>
+
+      <article class="card">
+         <img src="image/pliars.jpg" alt="pliars tools">
+      <h3> Pliars tools</h3>
+      <p class="price">KES 300</p>
+      <button onclick="buy('pliars tools')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/multi metre.jpg" alt="Electrical Multi metre tool">
+      <h3> Electrical Multi metre tools</h3>
+      <p class="price">KES 600</p>
+      <button onclick="buy('Electrical Multi metre tool')">Buy</button>
+    </article>
+
+  </section>
+<section id="products" class="products">
+    <h2>Padlocks:</h2>
+
+
+    <article class="card">
+         <img src="image/mindy padlock 1.jpg" alt="Padlock Mindy">
+      <h3> Padlock Mindy</h3>
+      <p class="price">KES 500</p>
+      <button onclick="buy(' Padlock Mindy')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/padlock Yantai 2.jpg" alt="Padlock Yantai">
+      <h3> Padlock Yantai</h3>
+      <p class="price">KES 650</p>
+      <button onclick="buy(' Padlock Yantai')">Buy</button>
+    </article>
+
+<article class="card">
+         <img src="image/padlock tricircle 3.jpg" alt="Padlock tricircle">
+      <h3> Padlock tricircle</h3>
+      <p class="price">KES 700</p>
+      <button onclick="buy(' Padlock tricircle')">Buy</button>
+    </article>
+
+
+
+<article class="card">
+         <img src="image/padlock domestic 4.jpg" alt="Padlock">
+      <h3> Padlock Domestic use</h3>
+      <p class="price">KES 400</p>
+      <button onclick="buy(' Padlock Domestic use ')">Buy</button>
+    </article>
+
+    <article class="card">
+         <img src="image/downloapadlock alrm 4.jpg" alt=" Alarm Padlock">
+      <h3> Padlock Alarm Padlock</h3>
+      <p class="price">KES 400</p>
+      <button onclick="buy(' Padlock Alarm Padlock ')">Buy</button>
+    </article>
+
+    </section>
+</main>
+
+<footer id="contact" class="site-footer">
+  <h2><u>Contact Us..</u></h2>
+  <p>@Mstafaa</p>
+  <p>Number: 0796493532</p>
+  <p>Email: info@barakadiesel.co.ke</p>
+
+    <div class="footer-images">
+    <img src="image/facebook.png" alt="facebook">
+    <img src="image/Instagram.jpg" alt="Instagram">
+    <img src="image/whatapp.jpg" alt="whatapp">
+  </div>
+
+
+</footer>
+
+<section id="About"     class="About">
+  <h2><u>Our Story</u></h2>
+  <p><sub>
+     Baraka Diesel began as a small local business driven by the passion to solve everyday power challenges. 
+    What started with a few electrical products has grown into a trusted supplier of diesel and energy solutions.
+  </sub>
+   
+  </p>
+  <p><sub>
+         Today, we proudly serve our community by providing high-quality generators, batteries, and solar systems. 
+    Our mission is simple — to deliver dependable power solutions that keep homes, businesses, and industries running.
+  
+  </sub>
+
+    </p>
+</section>
+
+<script src="script.js"></script>
+
+</body>
+</html>
