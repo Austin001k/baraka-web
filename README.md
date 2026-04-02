@@ -13,7 +13,7 @@
 
 
  📫 Contact Me
-> Email: austin@example.com  
+> Email: austinkamau2006@gmail.com  
 > Instagram: https://instagram.com/m_.s.t.a.f.a.a  
 > LinkedIn: https://linkedin.com/in/Austin001k  
 
